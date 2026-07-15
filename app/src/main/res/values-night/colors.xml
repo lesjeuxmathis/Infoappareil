@@ -1,0 +1,8 @@
+<resources>
+    <!-- Mode sombre : fond quasi noir + "focus blocks" gris foncé contrastés -->
+    <color name="background">#000000</color>
+    <color name="surface_card">#1C1C1E</color>
+    <color name="text_primary">#F5F5F7</color>
+    <color name="text_secondary">#A0A0A5</color>
+    <color name="divider">#2C2C2E</color>
+</resources>

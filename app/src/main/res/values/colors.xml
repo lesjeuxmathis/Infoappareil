@@ -1,9 +1,12 @@
 <resources>
-    <color name="purple_700">#3700B3</color>
-    <color name="purple_900">#20014D</color>
-    <color name="teal_200">#03DAC5</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="background">#F5F5F7</color>
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <!-- Accent (bleu signature façon One UI) -->
+    <color name="accent">#1259C3</color>
+    <color name="text_on_accent">#FFFFFFFF</color>
+
+    <!-- Mode clair -->
+    <color name="background">#F2F2F5</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B6B6F</color>
+    <color name="divider">#E4E4E8</color>
 </resources>

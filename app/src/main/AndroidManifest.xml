@@ -3,6 +3,7 @@
 
     <!-- Permission "normale" : accordée automatiquement à l'installation -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
 
     <!-- Permission "dangereuse" sur Android 12+, demandée à l'exécution -->
