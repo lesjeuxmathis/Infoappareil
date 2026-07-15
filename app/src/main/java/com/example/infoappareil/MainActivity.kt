@@ -527,7 +527,7 @@ class MainActivity : AppCompatActivity() {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                 val hdrTypes = display.hdrCapabilities?.supportedHdrTypes ?: intArrayOf()
-                val hdrNames = hdrTypes.mapNotNull {
+                val hdrNames = hdrTypes.toList().mapNotNull {
                     when (it) {
                         android.view.Display.HdrCapabilities.HDR_TYPE_DOLBY_VISION -> "Dolby Vision"
                         android.view.Display.HdrCapabilities.HDR_TYPE_HDR10 -> "HDR10"

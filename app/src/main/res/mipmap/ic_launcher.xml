@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fond dégradé avec coins arrondis (pas de masque système avant Android 8) -->
+    <path android:pathData="M24,0 h60 a24,24 0 0 1 24,24 v60 a24,24 0 0 1 -24,24 h-60 a24,24 0 0 1 -24,-24 v-60 a24,24 0 0 1 24,-24 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:startColor="#3E7BFA"
+                android:endColor="#0C3E9E" />
+        </aapt:attr>
+    </path>
+
+    <!-- Ombre douce sous le téléphone -->
+    <path
+        android:fillColor="#1F000000"
+        android:pathData="M47,29 h18 a6,6 0 0 1 6,6 v42 a6,6 0 0 1 -6,6 h-18 a6,6 0 0 1 -6,-6 v-42 a6,6 0 0 1 6,-6 z"/>
+
+    <!-- Corps du téléphone -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,27 h18 a6,6 0 0 1 6,6 v42 a6,6 0 0 1 -6,6 h-18 a6,6 0 0 1 -6,-6 v-42 a6,6 0 0 1 6,-6 z"/>
+
+    <!-- Broches de la puce -->
+    <path
+        android:fillColor="#1259C3"
+        android:pathData="M47,36 h2 v4 h-2 z M52,36 h2 v4 h-2 z M57,36 h2 v4 h-2 z M47,60 h2 v4 h-2 z M52,60 h2 v4 h-2 z M57,60 h2 v4 h-2 z M40,43 h4 v2 h-4 z M40,48 h4 v2 h-4 z M40,53 h4 v2 h-4 z M64,43 h4 v2 h-4 z M64,48 h4 v2 h-4 z M64,53 h4 v2 h-4 z"/>
+
+    <!-- Corps de la puce -->
+    <path
+        android:fillColor="#1259C3"
+        android:pathData="M46,40 h16 a2,2 0 0 1 2,2 v16 a2,2 0 0 1 -2,2 h-16 a2,2 0 0 1 -2,-2 v-16 a2,2 0 0 1 2,-2 z"/>
+
+    <!-- Cœur de la puce -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,46 h8 v8 h-8 z"/>
+
+    <!-- Bouton d'accueil -->
+    <path
+        android:fillColor="#C7D8F7"
+        android:pathData="M54,76 m-2.6,0 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0"/>
+</vector>
